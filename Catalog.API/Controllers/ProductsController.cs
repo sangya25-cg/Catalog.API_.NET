@@ -25,7 +25,7 @@ public class ProductsController : ControllerBase
     [HttpGet("{id:int}", Name = nameof(GetById))]
     public async Task<ActionResult<Product>> GetById(int id)
     {
-        var product = await _repository.GetByIdAsync(id - 1); // BUG: off-by-one error
+        var product = await _repository.GetByIdAsync(id);
 
         if (product is null)
         {
