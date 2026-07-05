@@ -87,11 +87,11 @@ The API will be available at `https://localhost:7xxx` (check console output for 
 
 ## Development Process
 
-This project was built incrementally with clear commits showing each step:
+This project was built incrementally with clear commits showing each step.
 
-![Commit History](commits-screenshot.png)
+[View Full Commit History on GitHub](https://github.com/sangya25-cg/Catalog.API_.NET/commits/main)
 
-### Commit History
+### Commit Summary
 
 1. **Remove default WeatherForecast controller and model** - Clean project setup
 2. **Add Product model, CreateProductDto, and in-memory repository** - Domain model and data access
